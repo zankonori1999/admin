@@ -1,0 +1,389 @@
+@font-face {
+    font-family: "Yekan";
+    src: url( "fonts/W_YEKAN_0.TTF" );
+    src: local( "?" ), url( "fonts/W_YEKAN_0.TTF" )format( "truetype" );
+}
+*{
+font-family:Yekan !important;
+font-size:16px;
+}
+
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  }
+
+html,
+body {
+  height: 100%;
+  direction:rtl;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+/*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+
+b,
+strong {
+/*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+
+img {
+  background-color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+/*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+
+a {
+	text-decoration:none;
+	color:#333;
+}
+a:hover {
+	color:#ff4545;
+	text-decoration:underline;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+/*
+  For IE6 + IE7:
+
+  "display: list-item" keeps bullets from
+  disappearing if hasLayout is triggered.
+*/
+  display: list-item;
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: right;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+/*
+  For IE9. Without, occasionally draws shapes
+  outside the boundaries of <svg> rectangle.
+*/
+  overflow: hidden;
+}
+/* =========================================================
+Common styles
+============================================================ */
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('fonts/bebasneue.eot');
+    src: url('fonts/bebasneue.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue.woff') format('woff'),
+         url('fonts/bebasneue.ttf') format('truetype'),
+         url('fonts/bebasneue.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family:"Patua One";
+	src:url("fonts/PatuaOne-Regular.eot?") format("eot"),
+	url("fonts/PatuaOne-Regular.woff") format("woff"),
+	url("fonts/PatuaOne-Regular.ttf") format("truetype"),
+	url("fonts/PatuaOne-Regular.svg#PatuaOne-Regular") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+body {
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+	background: url(img/body-bg.png);
+}
+pre, code {
+    font-family: 'DejaVu Sans Mono',Menlo,Consolas,monospace;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-right-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ol {
+    list-style: decimal inside none;
+}
+.entry-box ol li{
+	list-style:decimal inside;
+	margin-bottom:10px;
+}
+ul {
+    list-style: disc inside none;
+}
+.entry-box ul li{
+	list-style:circle inside;
+	margin-bottom:10px;
+}
+/*------responsive image----------------*/
+.responsive-img{
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.scale-hover {
+	transition: all 0.2s ease-in 0.2s; 
+}    
+.scale-hover:hover {
+ 	transform: scale(1.5);
+ 	transform-origin: center center 0;
+    transition: all 6s ease-in 0s;
+ 	transition: all 6s ease-out 0s; 
+}
+/* =========================================================
+Clear Floated Elements
+============================================================ */
+.right{ 
+	float:right;
+}
+.left{
+	float:left;
+}
+.clear {  
+	clear: both;  
+	display: block;  
+	overflow: hidden;  
+	visibility: hidden;  
+	width: 0;  height: 0;
+}
+.clearfix:before,.clearfix:after{
+  content: '.';  
+  display: block;  
+  overflow: hidden;  
+  visibility: hidden;  
+  font-size: 0;  
+  line-height: 0;  
+  width: 0;  
+  height: 0;
+ }
+.clearfix:after{  
+	clear: both;
+}
+.clearfix{  
+	zoom: 1;
+}
+.header{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+h1{
+	color: #fff;
+    font: 400 24px/25px 'Patua One',Arial,sans-serif;
+    letter-spacing: 0;
+	margin-bottom:10px;
+	text-shadow:0px 1px #000;
+}
+h2 {	
+    font: 400 20px/25px 'Patua One',Arial,sans-serif;
+    letter-spacing: 0;
+	margin-top:20px;
+	text-shadow:0px 1px #000;
+	text-align:center;
+}
+h2 a{
+	color: #fff;
+}
+.subtitle{
+	color:#aaa;
+	line-height:20px;
+}
+.subtitle a{
+	color:#fff;
+}
+.subtitle a:hover{
+	color:#ff4545;
+	text-decoration:underline;
+}
+.wrapper{
+	width:80%;
+	margin:20px auto 50px auto;
+}
+.right-col{
+	float:right;
+	width:40%;
+}
+.left-col{
+	float:left;
+	width:40%;
+}
+.responsive-img{
+	border:solid 10px #333;
+	
+}
+.right-col a, .left-col a{
+	display:block;
+}

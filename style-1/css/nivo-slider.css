@@ -1,0 +1,159 @@
+/*
+ * jQuery Nivo Slider v3.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyleft 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.slider-wrapper{
+	position:relative;
+	background:url("../images/background/bottom-pattern.png") repeat scroll 0 0 transparent;
+	padding:4px;
+}
+.slider-wrapper .widget-title{
+	position:absolute;
+	right:4px;
+	top:4px;
+	background-color:#333;
+	color:#fff;
+	padding:3px 10px;
+	z-index:501;
+	font-family:'bebas_neueregular',Arial,sans-serif;
+	font-size:18px;
+	text-transform:uppercase;
+	
+}
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	background:url("../images/slider/loading.gif") no-repeat 50% 50%;
+}
+.slide-img{
+	display:block;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	right:0px;
+	max-width: none;
+	display:none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+.nivoSlider a {
+	border:0;
+	display:block;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 20px;	
+	overflow: hidden;
+	display: none;
+	background:url("../images/background/main-body.png") repeat scroll 0 0 transparent;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.slide-title a{
+	font-family:"Patua One";
+	font-size:23px;
+	color:#fff;
+	font-weight:normal;
+}
+.slide-title a:hover{
+	color:#f1f1f1;
+	text-decoration:none;
+}
+.nivo-caption .entry-meta{
+	color:#fff;
+	font-size:11px;
+}
+.nivo-caption .meta-data{
+	color:#fff;
+	font-weight:bold;
+	font-size:11px;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	position: absolute;
+    z-index: 501;
+    left: 10px;
+    top: 10px;
+	display:none;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+.nivo-controlNav a {
+	background:#fff;
+    border: 0 none;
+    display: inline-block;
+    height: 10px;
+    margin: 0 2px;
+    text-indent: -9999px;
+    width: 10px;
+}
+.nivo-controlNav a.active {
+	background:#ff4545;
+}
+.nivo-directionNav a {
+	display:none;
+} 
+

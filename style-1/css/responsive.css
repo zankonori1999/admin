@@ -1,0 +1,1160 @@
+@media only screen and (max-width: 1365px) {
+	#scroll-to-top {
+		display:none !important;
+	}
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1110px) {
+
+/* =========================================================
+	Columns
+============================================================ */
+.main-body{
+	width:940px;
+}
+.wrapper {
+	width:940px;
+}
+.primary {
+	width:440px;
+	margin:20px 15px;
+}
+.secondary {
+	width:455px;
+	margin-left:15px;
+}
+.sidebar {
+	width:220px;
+}
+.last {
+	margin-left:0 !important;
+}
+
+
+#sidebar-a{
+	margin-left:15px;
+}
+.right-col {
+	width:675px;
+	margin:0px 15px 20px 15px;
+}
+.sidebar .sticky-wrapper,
+.sidebar .sticky-wrapper .sticky{
+	width:220px;
+}
+.primary .sticky-wrapper,
+.primary .sticky-wrapper .sticky{
+	width:440px;
+}
+/* =========================================================
+	Header
+============================================================ */
+/*-- Top menu ------------------------------------------------*/
+#top-nav > ul > li > a{
+    padding:15px;
+}
+
+/* =========================================================
+	Main Content
+============================================================ */
+/*===============Tabs=======================================*/
+.tab-container{
+	width:440px;
+}
+.primary .entry-item .video-thumb,
+.primary .entry-item .article-thumb{
+	margin-left:15px;
+	width:200px;
+}
+.primary .entry-item  .black-overlay{
+	width:200px;
+	height:125px;
+}
+/* =========================================================
+	Top Sidebar
+============================================================ */
+/*-- carouFredSel --*/
+/* =========================================================
+	Sidebar 
+============================================================ */
+.gallery li{
+	width:109px;
+}
+.sidebar .entry-box .black-overlay{
+	width:212px;
+	height:140px;
+}
+.spacer{
+	width:220px;
+}
+/* =========================================================
+	Footer
+============================================================ */
+.footer-top{	
+    padding-bottom: 40px;
+    padding-top: 72px;
+}
+.footer-top .logo-image{
+	float:right;
+	display:block;
+}
+/*========================================================================================
+Footer aside
+===========================================================================================*/
+.footer-top #sidebar-1{
+	width:300px;
+}
+.footer-top #sidebar-2{
+	width:330px;
+}
+.footer-top #sidebar-3{
+	width:280px;
+}
+.footer-aside{
+	margin-left:15px;
+}
+/*========================================================================================
+NewsPage
+=========================================================================================*/
+.right-col .entry-item .video-thumb,
+.right-col .entry-item .article-thumb{
+	margin-left:15px;
+}
+.right-col .entry-item .video-thumb,
+.right-col .entry-item .article-thumb{
+	margin-left:15px;
+}
+/* =========================================================
+	Single Page
+============================================================ */
+.about-author img {
+	margin-left:15px;
+}
+/*------------------ Comments List ---------------------*/
+.comment-wrap .comment-body .comment-reply-link {
+	margin-left:15px;
+}
+.comment-pagination a, .comment-pagination span {
+    padding-right: 15px;
+}
+/*------------------ Comment Form ---------------------*/
+#comments-form .comment-right {
+	width: 230px;
+	margin-left:15px;	
+}
+#comments-form .comment-left {
+	width:430px;
+}
+#comment-name, #comment-email, #comment-url, #comment-subject, #comment-phone {
+	width: 208px;
+}
+#comments-form p.textarea-block {
+	width:430px;
+}
+#comment-message {
+	width:410px;
+}
+/*==================================================================================
+Related Article
+====================================================================================*/
+/* =========================================================
+	404 Page
+============================================================ */
+.error-404 {
+    margin:0 15px 20px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	
+/* =========================================================
+	Columns
+============================================================ */
+.main-body{
+	width:680px;
+}
+.wrapper {
+	width:680px;
+}
+.primary {
+	width:350px;
+	margin:15px 10px;
+}
+.secondary {
+	width:300px;
+	margin-left:10px;
+}
+.sidebar {
+	width:300px;
+}
+.last {
+	margin-left:0 !important;
+}
+
+
+#sidebar-a{
+	margin-left:0px;
+	margin-bottom:15px;
+}
+#sub-page #sidebar-a {
+	margin-left:10px;
+}
+.right-col {
+	width:350px;
+	margin:0px 10px 15px 10px;
+}
+.sidebar .sticky-wrapper,
+.sidebar .sticky-wrapper .sticky{
+	width:300px;
+}
+.primary .sticky-wrapper,
+.primary .sticky-wrapper .sticky{
+	width:350px;
+}
+#widget-list-b{
+	margin-bottom:20px;
+}
+/* =========================================================
+	Header
+============================================================ */
+/*-- Top menu ------------------------------------------------*/
+#top-nav {
+	width:500px;
+}
+#top-menu {
+	display:none;
+}
+#responsive-menu {
+	display:block;
+}
+#top-nav > ul > li > a{
+    padding:15px;
+}
+
+/* =========================================================
+	Main Content
+============================================================ */
+/*===============Tabs=======================================*/
+.list-container {
+	margin-top:15px;
+}
+.tab-container{
+	width:340px;
+}
+.primary .tab-content ul li {
+	margin-top:15px;
+	padding-bottom:15px;
+}
+.primary .entry-item .video-thumb,
+.primary .entry-item .article-thumb{
+	margin-left:10px;
+	width:120px;
+}
+.primary .entry-item  .black-overlay{
+	width:120px;
+	height:75px;
+}
+.primary .entry-item .play-icon {
+	background-size:40px;
+}
+.primary .entry-item .link-icon {
+	background-size:40px;
+}
+/* =========================================================
+	Top Sidebar
+============================================================ */
+#top-sidebar {
+	margin-top:15px;
+}
+.feature-widget .feature-title {
+	margin-bottom:15px;
+}
+/*-- carouFredSel --*/
+.list-carousel.responsive {
+	margin:0 -5px;
+}
+.feature-widget .list-carousel ul li {
+	margin:0 5px;
+}
+.feature-item .play-icon, .feature-item .link-icon {
+	background-size:40px;
+}
+/* =========================================================
+	Sidebar 
+============================================================ */
+.gallery li, .gallery li img{
+	width:149px;
+}
+.sidebar .entry-box .black-overlay{
+	width:292px;
+	height:193px;
+}
+.spacer{
+	width:220px;
+}
+.sidebar .entry-box .video-thumb img, .sidebar .entry-box .article-thumb .link-icon img {
+	width:292px;
+}
+.sidebar .adv-box img {
+	width:300px;
+	height:auto;
+}
+.sidebar .widget-title, #widget-list-a > li, #widget-list-b > li {
+	margin-bottom:15px;
+}
+/* =========================================================
+	Footer
+============================================================ */
+.footer-top{	
+    padding-bottom: 30px;
+    padding-top: 72px;
+}
+.footer-top .logo-image{
+	float:right;
+	display:block;
+}
+/*========================================================================================
+Footer aside
+===========================================================================================*/
+.footer-top #sidebar-1{
+	width:200px;
+}
+.footer-top #sidebar-2{
+	width:290px;
+}
+.footer-top #sidebar-3{
+	width:170px;
+}
+.footer-top .news-letter {
+	margin-top:20px;
+}
+.footer-top .news-letter .email {
+	padding:0 10px;
+	width:110px;
+}
+.footer-top .news-letter .email:focus {
+	width:108px;
+}
+.footer-top .news-letter .submit {
+	width:38px;
+}
+.footer-aside{
+	margin-left:10px;
+}
+/*========================================================================================
+NewsPage
+=========================================================================================*/
+.breadcrumb {
+	margin:15px 0 0;
+}
+.right-col .entry-item .video-thumb,
+.right-col .entry-item .article-thumb{
+	margin-left:10px;
+	width:120px;
+}
+.right-col .entry-item .black-overlay {
+	width:120px;
+	height:79px;
+}
+.right-col .entry-item .play-icon, .right-col .entry-item .link-icon {
+	background-size:40px;
+}
+.right-col ul.article-list li {
+	margin-top:15px;
+	padding-bottom:15px;
+}
+.load-more {
+	margin-top:15px;
+}
+/* =========================================================
+	Single Page
+============================================================ */
+.right-col .entry-box {
+	margin-top:15px;
+}
+.entry-box .entry-title {
+	font-size:24px;
+}
+.entry-box iframe {
+	margin:15px 0;
+	height:auto;
+}
+.about-author img {
+	margin-left:15px;
+}
+#related-article .feature-widget .list-carousel ul li {
+	margin:0 5px;
+}
+#related-article .feature-item .play-icon, #related-article .feature-item .link-icon {
+	background-size:40px;
+}
+#related-article .feature-item .black-overlay {
+	width:102px;
+	height:104px;
+}
+#related-article .feature-item .entry-meta, #related-article .feature-item .meta-data {
+	display:none;
+}
+/*------------------ Comments List ---------------------*/
+#comments {
+	margin-top:15px;
+	padding-top:15px;
+}
+.comments-list .comment {
+	padding-top:15px;
+}
+.comments-list .comment .children {
+	margin-right:0;
+	margin-top:15px;
+}
+.comment-wrap .comment-body .comment-reply-link {
+	margin-left:15px;
+}
+.comment-pagination a, .comment-pagination span {
+    padding-right: 15px;
+}
+/*------------------ Comment Form ---------------------*/
+#comments-form .comment-right {
+	width: 140px;
+	margin-left:10px;	
+}
+#comments-form .comment-left {
+	width:200px;
+}
+#comment-name, #comment-email, #comment-url, #comment-subject, #comment-phone {
+	width: 118px;
+	margin-left:10px;
+}
+#comments-form p.textarea-block {
+	width:200px;
+}
+#comment-message {
+	width:180px;
+}
+/*==================================================================================
+Related Article
+====================================================================================*/
+/* =========================================================
+	404 Page
+============================================================ */
+.error-404 {
+    margin:0 10px 15px;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+/* =========================================================
+	Columns
+============================================================ */
+.main-body{
+	width:440px;
+	background:none;
+	border:none;
+}
+.pattern{
+	background:none;
+}
+.wrapper {
+	width:440px;
+}
+.primary {
+	width:420px;
+	margin:15px 10px;
+}
+.secondary {
+	width:420px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.sidebar {
+	width:420px;
+}
+.last {
+	margin-left:0 !important;
+}
+
+
+#sidebar-a{
+	margin-left:0px;
+	margin-bottom:15px;
+}
+#sub-page #sidebar-a {
+	margin-left:10px;
+}
+.right-col {
+	width:420px;
+	margin:0px 10px 15px 10px;
+}
+.divider {
+	margin-top:15px;
+}
+.sidebar .sticky-wrapper,
+.sidebar .sticky-wrapper .sticky{
+	width:420px;
+}
+.primary .sticky-wrapper,
+.primary .sticky-wrapper .sticky{
+	width:420px;
+}
+/* =========================================================
+	Header
+============================================================ */
+.branding .wrapper {
+	text-align:center;
+}
+#logo-image {
+	float:none;
+	margin-bottom:15px;
+}
+#top-banner {
+	float:none;
+	display:inline-block;
+}
+#top-banner img {
+	width:420px;
+}
+.search {
+	top:-35px;
+	display:none;
+}
+/*-- Top menu ------------------------------------------------*/
+#top-nav {
+	width:300px;
+	border-left:none;
+}
+#top-menu {
+	display:none;
+}
+#responsive-menu {
+	display:block;
+}
+#top-nav > ul > li > a{
+    padding:15px;
+}
+
+/* =========================================================
+	Main Content
+============================================================ */
+/*===============Tabs=======================================*/
+.list-container {
+	margin-top:15px;
+}
+.tab-container{
+	width:420px;
+}
+.primary .tab-content ul li {
+	margin-top:15px;
+	padding-bottom:15px;
+}
+.primary .entry-item .video-thumb,
+.primary .entry-item .article-thumb{
+	margin-left:10px;
+	width:120px;
+}
+.primary .entry-item  .black-overlay{
+	width:120px;
+	height:75px;
+}
+.primary .entry-item .play-icon {
+	background-size:40px;
+}
+.primary .entry-item .link-icon {
+	background-size:40px;
+}
+/* =========================================================
+	Top Sidebar
+============================================================ */
+#top-sidebar {
+	margin-top:15px;
+}
+.feature-widget .feature-title {
+	margin-bottom:15px;
+}
+/*-- carouFredSel --*/
+.list-carousel.responsive {
+	margin:0 -5px;
+}
+.feature-widget .list-carousel ul li {
+	margin:0 5px;
+}
+.feature-item .play-icon, .feature-item .link-icon {
+	background-size:40px;
+}
+.feature-item .entry-meta, .feature-item .meta-data {
+	display:none;
+}
+/* =========================================================
+	Sidebar 
+============================================================ */
+.gallery li, .gallery li img{
+	width:105px;
+	margin-left:0;
+}
+.sidebar .entry-box .black-overlay{
+	width:412px;
+	height:272px;
+}
+.spacer{
+	width:420px;
+}
+.sidebar .entry-box .video-thumb img, .sidebar .entry-box .article-thumb .link-icon img {
+	width:412px;
+}
+.sidebar .adv-box img {
+	width:420px;
+	height:auto;
+}
+.sidebar .widget-title, #widget-list-a > li, #widget-list-b > li {
+	margin-bottom:15px;
+}
+.tweet_list {
+	padding-bottom:15px;
+}
+#sub-page .sidebar {
+	margin-top:15px;
+	margin-right:10px;
+}
+/* =========================================================
+	Footer
+============================================================ */
+.footer-top{	
+    padding-bottom: 0px;
+    padding-top: 42px;
+}
+.footer-top .logo-image{
+	float:right;
+	display:block;
+}
+/*========================================================================================
+Footer aside
+===========================================================================================*/
+.footer-top #sidebar-1{
+	width:440px;
+}
+.footer-top #sidebar-2{
+	width:440px;
+}
+.footer-top #sidebar-3{
+	width:440px;
+}
+.footer-top .news-letter {
+	display:inline-block;
+}
+.footer-top .news-letter .email {
+	padding:0 10px;
+	width:205px;
+}
+.footer-top .news-letter .email:focus {
+	width:203px;
+}
+.footer-aside{
+	margin-left:0px;
+	float:none;
+	text-align:center;
+	margin-bottom:15px;
+}
+.footer-aside .footer-logo, .footer-aside .social-links {
+	display:inline-block;
+}
+#copylefts {
+	float:none;
+	text-align:center;
+}
+#bottom-menu {
+	float:none;
+	text-align:center;
+}
+#bottom-menu ul {
+	display:inline-block;
+}
+#bottom-menu ul li:first-child {
+	margin-right:0;
+}
+
+/*========================================================================================
+NewsPage
+=========================================================================================*/
+.breadcrumb {
+	margin:15px 0 0;
+}
+.right-col .entry-item .video-thumb,
+.right-col .entry-item .article-thumb{
+	margin-left:10px;
+	width:120px;
+}
+.right-col .entry-item .black-overlay {
+	width:120px;
+	height:79px;
+}
+.right-col .entry-item .play-icon, .right-col .entry-item .link-icon {
+	background-size:40px;
+}
+.right-col ul.article-list li {
+	margin-top:15px;
+	padding-bottom:15px;
+}
+.load-more {
+	margin-top:15px;
+}
+/* =========================================================
+	Single Page
+============================================================ */
+.right-col .entry-box {
+	margin-top:15px;
+}
+.entry-box .entry-title {
+	font-size:24px;
+}
+.entry-box iframe {
+	margin:15px 0;
+	height:auto;
+}
+.about-author img {
+	margin-left:15px;
+}
+#related-article .feature-widget .list-carousel ul li {
+	margin:0 5px;
+}
+#related-article .feature-item .play-icon, #related-article .feature-item .link-icon {
+	background-size:40px;
+}
+#related-article .feature-item .black-overlay {
+	width:102px;
+	height:104px;
+}
+#related-article .feature-item .entry-meta, #related-article .feature-item .meta-data {
+	display:none;
+}
+.entry-box blockquote {
+	margin-bottom:0;
+}
+/*------------------ Comments List ---------------------*/
+#comments {
+	margin-top:15px;
+	padding-top:15px;
+}
+.comments-list .comment {
+	padding-top:15px;
+}
+.comments-list .comment .children {
+	margin-right:0;
+	margin-top:15px;
+}
+.comment-wrap .comment-body .comment-reply-link {
+	margin-left:15px;
+}
+.comment-pagination a, .comment-pagination span {
+    padding-right: 15px;
+}
+.comment-wrap img {
+	margin-left:10px;
+}
+.comment-wrap .comment-body {
+	margin-right:78px;
+}
+/*------------------ Comment Form ---------------------*/
+#comments-form .comment-right {
+	width: 190px;
+	margin-left:10px;	
+}
+#comments-form .comment-left {
+	width:220px;
+}
+#comment-name, #comment-email, #comment-url, #comment-subject, #comment-phone {
+	width: 168px;
+	margin-left:10px;
+}
+#comments-form p.textarea-block {
+	width:220px;
+}
+#comment-message {
+	width:198px;
+}
+/*==================================================================================
+Related Article
+====================================================================================*/
+/* =========================================================
+	404 Page
+============================================================ */
+.error-404 {
+    margin:0 10px 15px;
+}
+.error-404 .right-404-col p {
+	font-size:80px;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+/* =========================================================
+	Columns
+============================================================ */
+.main-body{
+	width:280px;
+	padding:10px 0;
+	background:none;
+	border:none;
+}
+.pattern{
+	background:none;
+}
+.wrapper {
+	width:280px;
+}
+.primary {
+	width:280px;
+	margin:15px 0px;
+}
+.secondary {
+	width:280px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.sidebar {
+	width:280px;
+}
+.last {
+	margin-left:0 !important;
+}
+
+
+#sidebar-a{
+	margin-left:0px;
+	margin-bottom:15px;
+}
+#sub-page #sidebar-a {
+	margin-left:10px;
+}
+.right-col {
+	width:280px;
+	margin:0px 0px 15px 0px;
+}
+.divider {
+	margin-top:15px;
+}
+.main-body .wrapper{
+	border:none;
+}
+/* =========================================================
+	Header
+============================================================ */
+.branding .wrapper {
+	text-align:center;
+}
+#logo-image {
+	float:none;
+	margin-bottom:15px;
+}
+#top-banner {
+	float:none;
+	display:inline-block;
+}
+#top-banner img {
+	width:260px;
+}
+.search {
+	top:-35px;
+	display:none;
+}
+.separator{
+	display:none;
+}
+/*-- Top menu ------------------------------------------------*/
+#top-nav {
+	width:250px;
+	border-left:none;
+}
+#top-menu {
+	display:none;
+}
+#responsive-menu {
+	display:block;
+}
+#top-nav > ul > li > a{
+    padding:15px;
+}
+
+/* =========================================================
+	Main Content
+============================================================ */
+.nivo-caption {
+	padding:10px;
+}
+.slide-title {
+	line-height:18px;
+	margin-bottom:0;
+}
+.slide-title a {
+	font-size:18px;
+}
+/*===============Tabs=======================================*/
+.list-container {
+	margin-top:15px;
+}
+.tab-container{
+	width:280px;
+}
+.primary .tab-content ul li {
+	margin-top:15px;
+	padding-bottom:15px;
+}
+.primary .entry-item .video-thumb,
+.primary .entry-item .article-thumb{
+	margin-left:0px;
+	width:272px;
+	float:none;
+}
+.primary .entry-item .video-thumb img,
+.primary .entry-item .article-thumb img {
+	width:272px;
+}
+.primary .entry-item  .black-overlay{
+	width:272px;
+	height:171px;
+}
+/* =========================================================
+	Top Sidebar
+============================================================ */
+#top-sidebar {
+	margin-top:15px;
+}
+.feature-widget .feature-title {
+	margin-bottom:15px;
+}
+/*-- carouFredSel --*/
+.list-carousel.responsive {
+	margin:0;
+}
+.feature-widget .list-carousel ul li {
+	margin:0 5px;
+}
+.feature-item .play-icon, .feature-item .link-icon {
+	background-size:40px;
+}
+.feature-item .entry-meta, .feature-item .meta-data {
+	display:none;
+}
+/* =========================================================
+	Sidebar 
+============================================================ */
+.gallery li, .gallery li img{
+	width:139px;
+}
+.sidebar .entry-box .black-overlay{
+	width:272px;
+	height:180px;
+}
+.spacer{
+	width:280px;
+}
+.sidebar .entry-box .video-thumb img, .sidebar .entry-box .article-thumb .link-icon img {
+	width:272px;
+}
+.sidebar .adv-box img {
+	width:280px;
+	height:auto;
+}
+.sidebar .widget-title, #widget-list-a > li, #widget-list-b > li {
+	margin-bottom:15px;
+}
+.tweet_list {
+	padding-bottom:15px;
+}
+#sub-page .sidebar {
+	margin-top:15px;
+	margin-right:0px;
+	margin-left:0px;
+}
+/* =========================================================
+	Footer
+============================================================ */
+.footer-top{	
+    padding-bottom: 0px;
+    padding-top: 42px;
+}
+.footer-top .logo-image{
+	float:right;
+	display:block;
+}
+/*========================================================================================
+Footer aside
+===========================================================================================*/
+.footer-top #sidebar-1{
+	width:280px;
+}
+.footer-top #sidebar-2{
+	width:280px;
+}
+.footer-top #sidebar-3{
+	width:280px;
+}
+.footer-top .news-letter {
+	display:inline-block;
+}
+.footer-top .news-letter .email {
+	padding:0 10px;
+	width:205px;
+}
+.footer-top .news-letter .email:focus {
+	width:203px;
+}
+.footer-aside{
+	margin-left:0px;
+	float:none;
+	text-align:center;
+	margin-bottom:15px;
+}
+.footer-aside .footer-logo, .footer-aside .social-links {
+	display:inline-block;
+}
+.social-links li {
+	margin-left:0;
+}
+#copylefts {
+	float:none;
+	text-align:center;
+}
+#bottom-menu {
+	float:none;
+	text-align:center;
+}
+#bottom-menu ul {
+	display:inline-block;
+}
+#bottom-menu ul li {
+	margin-right:15px;
+}
+#bottom-menu ul li:first-child {
+	margin-right:0;
+}
+
+/*========================================================================================
+NewsPage
+=========================================================================================*/
+.breadcrumb {
+	margin:15px 0 0;
+}
+.right-col .entry-item .video-thumb,
+.right-col .entry-item .article-thumb{
+	margin-left:0px;
+	width:272px;
+	float:none;
+}
+.right-col .entry-item .video-thumb img,
+.right-col .entry-item .article-thumb img{
+	width:272px;
+}
+.right-col .entry-item .black-overlay {
+	width:120px;
+	height:79px;
+}
+.right-col .entry-item .play-icon, .right-col .entry-item .link-icon {
+	background-size:40px;
+}
+.right-col ul.article-list li {
+	margin-top:15px;
+	padding-bottom:15px;
+}
+.load-more {
+	margin-top:15px;
+}
+/* =========================================================
+	Single Page
+============================================================ */
+.right-col .entry-box {
+	margin-top:15px;
+}
+.entry-box .entry-title {
+	font-size:18px;
+}
+.entry-box iframe {
+	margin:15px 0;
+	height:auto;
+}
+.about-author img {
+	margin-left:15px;
+}
+#related-article .feature-widget .list-carousel ul li {
+	margin:0 5px;
+}
+#related-article .feature-item .play-icon, #related-article .feature-item .link-icon {
+	background-size:40px;
+}
+#related-article .feature-item .black-overlay {
+	width:102px;
+	height:104px;
+}
+#related-article .feature-item .entry-meta, #related-article .feature-item .meta-data {
+	display:none;
+}
+.entry-box blockquote {
+	margin-bottom:0;
+}
+#related-article .feature-widget .feature-title, .about-author h5, #comments h5 {
+	font-size:18px;
+}
+/*------------------ Comments List ---------------------*/
+#comments {
+	margin-top:15px;
+	padding-top:15px;
+}
+.comments-list .comment {
+	padding-top:15px;
+}
+.comments-list .comment .children {
+	margin-right:0;
+	margin-top:15px;
+}
+.comment-wrap .comment-body .comment-reply-link {
+	margin-left:15px;
+}
+.comment-pagination a, .comment-pagination span {
+    padding-right: 15px;
+}
+.comment-wrap img {
+	margin-left:10px;
+}
+.comment-wrap .comment-body {
+	margin-right:78px;
+}
+/*------------------ Comment Form ---------------------*/
+#comments-form .comment-right {
+	width: 280px;
+	margin-left:0px;	
+}
+#comments-form .comment-left {
+	width:220px;
+}
+#comment-name, #comment-email, #comment-url, #comment-subject, #comment-phone {
+	width: 258px;
+	margin-left:0px;
+}
+#comments-form p.textarea-block {
+	width:280px;
+}
+#comment-message {
+	width:258px;
+}
+/*==================================================================================
+Related Article
+====================================================================================*/
+/* =========================================================
+	404 Page
+============================================================ */
+.error-404 {
+    margin:0 10px 15px;
+}
+.error-404 .right-404-col p {
+	font-size:50px;
+}
+.error-404 .left-404-col h1 {
+	font-size:22px;
+}
+
+}
+
+
