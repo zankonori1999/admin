@@ -5,32 +5,32 @@ include_once '../include/functions.php';
     <div class="col-lg-12">
         <section class="panel">
             <header class="panel-heading">
-                لیست صفحات وب سایت
+                لیست فایل های آپلود شده
             </header>
             <table class="table table-striped table-advance table-hover">
                 <thead>
                 <tr>
-                    <th>عنوان خبر</th>
-                    <th>کلمات کلیدی</th>
-                    <th>توضیحات</th>
+                    <th>عنوان فایل</th>
+                    <th>حجم</th>
                     <th>آدرس</th>
-                    <th>محتویات</th>
+                    <th>تصویر</th>
                     <th>حذف</th>
                 </tr>
                 </thead>
                 <tbody>
                 <?php
-                $lists = list_pages();
+                $lists = file_list();
                 if($lists):
                     foreach ($lists as $list):
                         ?>
                         <tr>
                             <td><?php echo $list['title']; ?></td>
-                            <td><?php echo $list['keywords']; ?></td>
-                            <td><?php echo $list['description']; ?></td>
-                            <td><input style="direction: ltr" type="text" value="page.php?id=<?php echo $list['id']; ?>"></td>
-                            <td><a href="dashbord.php?m=pages&p=edit&id=<?php echo $list['id']; ?>" class="btn btn-primary btn-xs"><li class="icon-pencil"></li></a></td>
-                            <td><a href="dashbord.php?m=pages&p=delete&id=<?php echo $list['id']; ?>" class="btn btn-danger btn-xs"><li class="icon-trash"></li></a></td>
+                            <td><?php echo $list['size']; ?></td>
+                            <td><input style="direction: ltr" type="text" value="<?php echo $list['path']; ?>" size="50"></td>
+                            <td>
+                                <img src="<?php echo $list['path']; ?>" width="50px">
+                            </td>
+                            <td><a href="dashbord.php?m=uploader&p=delete&id=<?php echo $list['id']; ?>" class="btn btn-danger btn-xs"><li class="icon-trash"></li></a></td>
                         </tr>
                     <?php
                     endforeach;

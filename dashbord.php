@@ -368,6 +368,19 @@ include_once '../include/functions.php';
                         </ul>
                     </li>
 <!--                        End contact-->
+                    <!--                    uploader list-->
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="icon-book"></i>
+                            <span>مدیریت فایل  ها</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a class="" href="dashbord.php?m=uploader&p=list">لیست فایل ها</a></li>
+                            <li><a class="" href="dashbord.php?m=uploader&p=add">افزودن فایل جدید</a></li>
+                        </ul>
+                    </li>
+                    <!--                        End uploader-->
 
 <!--                    start settings-->
                     <li class="sub-menu">
